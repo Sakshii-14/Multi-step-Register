@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://static.thenounproject.com/png/4309446-200.png" type="image/x-icon">
+  <title>Multi-step Register</title>
+
+</head>
+
+<body class="bg-[#121826] h-screen  w-screen overflow-hidden  ">
+  <div class="c1 absolute  sm:translate-x-[-50%] z-[-1] sm:translate-y-[-50%] translate-y-[-60%] translate-x-[-50%]">
+    <svg width="749" height="749" viewBox="0 0 749 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="374.5" cy="374.5" r="374.5" fill="url(#paint0_radial_779_2273)" fill-opacity="0.3" />
+      <defs>
+        <radialGradient id="paint0_radial_779_2273" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(374.5 374.5) rotate(90) scale(374.5)">
+          <stop stop-color="#652CD1" />
+          <stop offset="1" stop-color="#652CD1" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
+  <div class="c2 absolute sm:translate-x-[210%] sm:translate-y-[90%] translate-x-[210%] z-[-1] translate-y-[100%]">
+    <svg width="749" height="749" viewBox="0 0 749 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="374.5" cy="374.5" r="374.5" fill="url(#paint0_radial_779_2273)" fill-opacity="0.3" />
+      <defs>
+        <radialGradient id="paint0_radial_779_2273" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(374.5 374.5) rotate(90) scale(374.5)">
+          <stop stop-color="#652CD1" />
+          <stop offset="1" stop-color="#652CD1" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
+  <div class="container h-screen w-screen mx-auto my-auto flex justify-center flex-col gap-6 items-center min-w-14 ">
+    <div class="  sm:h-auto border-[1px]  flex flex-col justify-between items-start sm:min-w-[30%] py-9 px-[5%] gap-6 border-[#4D5562] rounded-xl bg-[#212936] relative">
+      <p class="text-white text-[20px] font-medium">Which topics you are interested in ?</p>
+      <ul class="text-[#A1A1A9] text-[16px] font-normal w-full flex flex-col gap-[2rem]">
+        <li class="border border-[#4D5562] bg-[#394150] p-3 rounded-lg select-none">Software Development</li>
+        <li class="border border-[#4D5562] bg-[#394150] p-3 rounded-lg select-none">User Experience</li>
+        <li class="border border-[#4D5562] bg-[#394150] p-3 rounded-lg select-none">Graphic Design</li>
+      </ul>
+      <button type="submit" id="continue2" class="bg-[#845EEE] w-[34%] mt-4 rounded-3xl text-white focus:border-[#845EEE] focus:outline-none  mx-auto h-[2.4rem] sm:text-[12px] text-[10px] font-normal p-1 text-center">Continue</button>
+      <div class="box hidden absolute top-[50%] left-[30%] ">
+        <div class=" flex flex-col text-white border gap-2 p-2 bg-[#121826] border-[#A1A1A9] transition-all duration-150 rounded-lg  ">
+          <p>Please select one value</p>
+          <button class="text-[14px] bg-[#A1A1A9] mx-auto px-3 py-1 rounded-lg flex items-center justify-center font-medium hover:bg-[#394150]" id="back">OK</button>
+        </div>
+      </div>
+ 
+    </div>
+    <div class="flex justify-center items-center gap-6">
+      <p class="text-[#394150] text-[14px] font-medium">Step 2 of 3 </p>
+      <div class="flex gap-5 p-4 justify-center items-center ">
+        <div class=" dot active h-[10px] w-[10px] rounded-full relative flex items-center justify-center bg-[#394150] "><div class="rounded-full h-[10px] w-[10px] bg-[#845EEE]"></div></div>
+        <div class=" dot active h-[10px] w-[10px] rounded-full relative flex items-center justify-center bg-[#394150] "><div class="h-[20px] w-[20px] absolute rounded-full bg-[#845EEE] opacity-[0.35]"></div></div>
+        <div class="h-[10px] w-[10px] rounded-full bg-[#394150]"></div> 
+      </div>
+      
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+
+</html>
