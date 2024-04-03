@@ -14,7 +14,7 @@ form.addEventListener("submit",(e)=>{
  }
 
  localStorage.setItem("form1",JSON.stringify(obj));
- window.location.href="index2.html";
+ window.location.href="/index2.html";
 })
 let textbox=document.querySelector("#name");
 textbox.addEventListener("keyup",(e)=>{
