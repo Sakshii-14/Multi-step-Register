@@ -26,7 +26,7 @@ btn2.addEventListener("click",()=>{
     }
     
     localStorage.setItem("form2",JSON.stringify(arr));
-    window.location.href="index3.html"
+    window.location.href="page3.html"
 })
 
 document.querySelector("#back").addEventListener("click",()=>{location.reload()});
